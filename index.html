@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="container-wrapper">
+    <div class="input-field">
+      <div class="input-side">
+        <span class="input-name">Enter Values</span>
+        <div class="inputbox">
+          <input type="text" id="inputValue" placeholder="Input Value" min="0" max="100">
+          <input type="text" id="maxValue" placeholder="Max Value">
+        </div>
+      </div>
+      <div class="color-side">
+        <span>Selection Colors</span>
+        <div class="color-code">
+          <div class="merge">
+            <div class="code-box"></div>
+            <div class="code-text">FFFFFF</div>
+          </div>
+          <div class="code-percent">100%</div>
+        </div>
+        <div class="color-code">
+          <div class="merge">
+            <div class="code-box2"></div>
+            <div class="code-text">C2E3FF</div>
+          </div>
+          <div class="code-percent">100%</div>
+        </div>
+        <div class="color-code">
+          <div class="merge">
+            <div class="code-box3"></div>
+            <div class="code-text">008CFF</div>
+          </div>
+          <div class="code-percent">100%</div>
+        </div>
+        <div class="color-code">
+          <div class="merge">
+            <div class="code-box4"></div>
+            <div class="code-text">003F73</div>
+          </div>
+          <div class="code-percent">100%</div>
+        </div>
+      </div>
+    </div>
+    <div class="graphs-field">
+      <span>Graphs</span>
+      <div class="canvas">
+        <div class="bar">
+          <div class="progress-bar bar" id="bar"></div>
+          <span id="level">70%</span>
+          <span>Level 1</span>
+        </div>
+        <div class="pie">
+          <div class="progress-bar pie" id="pie" data-pie="75%"></div>
+          <span>&nbsp;</span>
+          <span>Level 2</span>
+        </div>
+        <div class="gradient">
+          <div class="progress-bar gradient" id="gradient"></div>
+          <span id="level2">70%</span>
+          <span>Level 3</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
